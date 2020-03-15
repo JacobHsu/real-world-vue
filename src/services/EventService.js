@@ -1,4 +1,5 @@
 import axios from 'axios'
+import NProgress from 'nprogress' // <--- Import the library
 
 const apiClient = axios.create({
   baseURL: `http://localhost:3000`,
@@ -9,6 +10,16 @@ const apiClient = axios.create({
   }
 })
 
+apiClient.interceptors.request.use(config => { // Called on request
+  NProgress.start()
+  return config
+})
+apiClient.interceptors.response.use(response => { // Called on response
+  NProgress.done()
+  return response
+})
+
+// Each of our API Calls
 export default {
   getEvents(perPage, page) {
     return apiClient.get('/events?_limit=' + perPage + '&_page=' + page)

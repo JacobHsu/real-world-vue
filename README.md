@@ -1,5 +1,29 @@
 # real-world-vue
 
+`$ npm i -g json-server`  
+`$ json-server --watch db.json`
+
+Resources
+http://localhost:3000/events
+
+Home
+http://localhost:3000
+
+`$ npm run serve`  
+
+ App running at:
+  - Local:   http://localhost:8080/
+
+## [NProgress.js](http://ricostacruz.com/nprogress/)
+
+`$ npm install nprogress`
+
+![Alt nprogress](https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1578383427427_1.jpg?alt=media&token=217786c7-f679-4d30-88eb-72cb0f1305e7)
+
+`$ json-server -d 1500 db.json` // wait 1500 milliseconds(1.5 seconds) before responding  
+
+`$ npm run serve`
+
 ## Following along?
 
 We encourage you to follow the course on Vue Mastery, and code along with us. This course has tags representing the start and finish of each level, just in case you get stuck. Here's the start and ending code of each lesson, if you'd like to download them.

@@ -32,6 +32,9 @@ http://localhost:3000
 
 ![Alt Route Guard](https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1578372432344_1.jpg?alt=media&token=2dfc1124-ca7e-44f8-ac07-9459d1d5b6ba)
 
+Code-Pop [progress-bar-global-guard](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-global-guard)
+Pop [progress-bar-finished](https://github.com/Code-Pop/real-world-vue/releases/tag/progress-bar-finished)
+
 ## References
 
 [progress-bar-in-component-route-guards](https://www.vuemastery.com/courses/next-level-vue/progress-bar-in-component-route-guards/)

@@ -26,6 +26,12 @@ http://localhost:3000
 
 `$ npm run serve`
 
+###  Global Route Guards
+
+/src/router.js
+
+![Alt Route Guard](https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1578372432344_1.jpg?alt=media&token=2dfc1124-ca7e-44f8-ac07-9459d1d5b6ba)
+
 ## References
 
 [progress-bar-in-component-route-guards](https://www.vuemastery.com/courses/next-level-vue/progress-bar-in-component-route-guards/)

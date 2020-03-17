@@ -3,8 +3,6 @@
 `$ npm i -g json-server`  
 `$ json-server --watch db.json`
 
-`$ json-server -d 1500 db.json`
-
 Resources
 http://localhost:3000/events
 
@@ -25,6 +23,12 @@ http://localhost:3000
 `$ json-server -d 1500 db.json` // wait 1500 milliseconds(1.5 seconds) before responding  
 
 `$ npm run serve`
+
+## reusable-form-components
+
+[eusable-form-components-baseinput](https://www.vuemastery.com/courses/next-level-vue/reusable-form-components-baseinput/)  
+
+![Alt components-baseinput](https://i.imgur.com/bQA0tGt.png)
 
 ###  Global Route Guards
 
